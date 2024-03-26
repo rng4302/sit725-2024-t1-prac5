@@ -40,3 +40,12 @@ const submitForm = () => {
 
     console.log("Form Data Submitted: ", formData);
 }
+
+$(document).ready(function () {
+    $('.materialboxed').materialbox();
+    addCards(cardList);
+    $('.modal').modal();
+    $('#formSubmit').click(() => {
+        submitForm();
+    })
+})

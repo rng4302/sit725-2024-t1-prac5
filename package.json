@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rng4302/sit725-2024-t1-prac4#readme",
   "dependencies": {
-    "express": "^4.19.1"
+    "express": "^4.19.1",
+    "mongodb": "^6.5.0"
   }
 }
